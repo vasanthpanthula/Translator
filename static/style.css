@@ -1,0 +1,190 @@
+body {
+    background: #f5f7fb;
+    font-family: Arial, sans-serif;
+}
+
+
+.container {
+    max-width: 900px;
+    margin: 50px auto;
+}
+
+
+.translator {
+    background: white;
+
+    padding: 40px;
+
+    border-radius: 16px;
+
+    box-shadow:
+        0 5px 25px
+        rgba(0, 0, 0, 0.08);
+}
+
+
+/* HEADER */
+
+.header {
+    text-align: center;
+
+    margin-bottom: 35px;
+}
+
+
+.header h1 {
+    font-size: 42px;
+
+    font-weight: bold;
+
+    margin-bottom: 5px;
+}
+
+
+.header p {
+    color: #777;
+
+    font-size: 18px;
+}
+
+
+/* LABEL */
+
+label {
+    font-weight: 600;
+
+    margin-bottom: 8px;
+
+    display: block;
+}
+
+
+/* LANGUAGE */
+
+.language-row {
+    margin-bottom: 10px;
+}
+
+
+.form-select {
+    height: 55px;
+
+    font-size: 17px;
+
+    border-radius: 8px;
+}
+
+
+/* TEXT AREA */
+
+.text-section {
+    margin-top: 28px;
+}
+
+
+textarea {
+    min-height: 170px;
+
+    font-size: 18px !important;
+
+    padding: 15px !important;
+
+    resize: vertical;
+
+    border-radius: 10px !important;
+}
+
+
+/* OUTPUT */
+
+.output {
+    min-height: 170px;
+
+    background: #f8f9fa;
+
+    border: 1px solid #dee2e6;
+
+    border-radius: 10px;
+
+    padding: 15px;
+
+    font-size: 18px;
+
+    white-space: pre-wrap;
+
+    word-break: break-word;
+}
+
+
+/* BUTTONS */
+
+.buttons {
+    display: flex;
+
+    gap: 10px;
+
+    flex-wrap: wrap;
+
+    margin-top: 15px;
+}
+
+
+.buttons button {
+    min-height: 48px;
+
+    font-size: 16px;
+
+    padding: 8px 18px;
+}
+
+
+/* STATUS */
+
+.status {
+    margin-top: 10px;
+
+    color: #666;
+
+    font-size: 14px;
+
+    min-height: 20px;
+}
+
+
+/* MOBILE */
+
+@media (max-width: 600px) {
+
+    .container {
+        margin: 15px auto;
+
+        padding: 10px;
+    }
+
+
+    .translator {
+        padding: 20px;
+    }
+
+
+    .header h1 {
+        font-size: 32px;
+    }
+
+
+    .header p {
+        font-size: 16px;
+    }
+
+
+    .buttons button {
+        width: 100%;
+    }
+
+    .audio-player {
+    width: 100%;
+    margin-top: 20px;
+    display: none;
+}
+
+}
